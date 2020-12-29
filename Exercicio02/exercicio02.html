@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+</head>
+<body>
+    
+    <script>
+       var diasAlugados = Number.parseInt(window.prompt('Quantos dias o carro foi alugado? '))
+       var kilmetrosPercorridos = Number.parseFloat(window.prompt('Quantos kilometros percorridos: '))
+       
+       totalPrecoDias = diasAlugados * 60
+       totalPrecoKilom = kilmetrosPercorridos * 0.15
+       precoTotal = totalPrecoDias + totalPrecoKilom
+
+       document.write(`Preço total dias = ${totalPrecoDias}<br/>`)
+       document.write(`Preço total Kilometros = ${totalPrecoKilom.toFixed(2)}<br/>`)
+       document.write(`Preço total a pagar = ${precoTotal.toFixed(2)}<br/>`)
+
+        
+
+    </script>
+
+
+</body>
+</html>
